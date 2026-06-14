@@ -21,6 +21,17 @@ notebooks/ - exploratory analysis
 src/ - reusable code
 figures/ - generated plots and maps
 
+Current Project
+
+Mapping major German cities using GeoPandas and geospatial workflows.
+
+Skills Demonstrated
+
+- Coordinate handling
+- Geospatial visualization
+- Python data analysis
+- Reproducible workflows
+
 Author
 
 Dr. Basel Ali
