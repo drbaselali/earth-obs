@@ -65,6 +65,7 @@ The dataset renewable energy consumption contains significant missing data, ther
 **Renewable Energy vs CO2 Emission**
 * Most countries cluster at lower values ~ less than 10 tons CO2 per capita.
 * No strong relationship found between the two variables and outlier domination is apparent.
+  
 ➡️ **No conclusive statements can be derived as the renewable energy consumption datasets lacks coverage of all countries. Therefore, more data and coverage are required to draw a solid conclusion.**
 
 **Supervised Machine Learning**
