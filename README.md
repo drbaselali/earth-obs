@@ -93,7 +93,9 @@ Clearer and better structured clustering with DBCV = 0.330. The clusters span lo
 **Economic development is the dominate and primary driver of CO2 emissions, while lang dynamics and renewable energies provide minor patterns. On the other hand, the machine learning algorithms result point to the same conclusion, while also revealing some clear environmental-economic archetypes.**
 
 ## 📊 Summary Figure
+
 ![Summary Figure 1](figures/co2_per_capita_map.png)
+![Summary Figure 1](figures/forest_agri_stacked_bar.png)
 ![Summary Figure 2](figures/final_summary_figure.png)
 
 Author
