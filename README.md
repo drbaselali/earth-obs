@@ -19,12 +19,19 @@ Key Questions:
 4- Which factors are strongly correlated with emission?
 
 The project currently uses the following data from World Bank Open Data:
+
 CO2 contribution per capita: https://data.worldbank.org/indicator/EN.GHG.CO2.PC.CE.AR5   
+
 CO2 global contribution: https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5
+
 Forest area: https://data.worldbank.org/indicator/AG.LND.FRST.ZS
+
 Agricultural area: https://data.worldbank.org/indicator/AG.LND.AGRI.ZS
+
 Renewable energy consumption: https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS
+
 GDP per capita: https://data.worldbank.org/indicator/NY.GDP.MKTP.KD
+
 Population: https://data.worldbank.org/indicator/SP.POP.TOTL
 
 Project Workflow:
@@ -47,6 +54,7 @@ The dataset renewable energy consumption contains significant missing data, ther
 * CO₂ per capita, GDP per capita, and population are **highly right-skewed**
 * Large-scale inequalities are present in emission, income and population size.
 * Forest and agriculture variables are uniform and symmetric.
+
 ➡️ **Climate change impact is highly concerntrated in a small cluster of high income and high population countries.**
 
 **Correlations**
@@ -54,12 +62,14 @@ The dataset renewable energy consumption contains significant missing data, ther
 * Renewables ↔ GDP: moderate negative (~-0.50)
 * Forest ↔ Agriculture: moderate negative (~-0.48)
 * Renewables ↔ CO₂: weak negative (~-0.21)
+
 ➡️ **High income countries contribute significantly more to emissions, while the correlation between forest and agriculture is expected. On the other hand, even though renewable energy consumption has lower than expected correlation, one should keep in that this dataset suffers from siginifcant lack of coverage for all countries.**
 
 **Land Dynamics**
 * Countries with large number of forests often have minimal agriculture, such as Gabon and Suriname.
 * Few high income developed countries maintain high forest area, such as Japan and Sweden.
 * Clear trade-off between forest and agricultural land use.
+
 ➡️ **Land dynamics are not only driven by income level, but also geography and development.**
 
 **Renewable Energy vs CO2 Emission**
