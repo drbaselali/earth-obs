@@ -40,7 +40,7 @@ Tools and Components:
 4- Random forest and feature importance (supervised learning) using sklearn library in Python
 
 Notes: 
-The variable renewable energy consumption contains significant missing data, therefore the HDBSCAN clustering was performed in one run for only four variable and in the next for all 5 variables.
+The dataset renewable energy consumption contains significant missing data, therefore the HDBSCAN clustering was performed in one run without this variable and in the next with the full avaiable datasets.
 
 Author
 
