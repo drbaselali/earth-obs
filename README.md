@@ -10,7 +10,9 @@ figures/ - generated plots and maps
 
 Current Project titled "Earth Climate Analysis Using Environmental and Economic Indicators"
 
-The goal of the project is to employ several ML and data analysis tools via Python to answer the following questions:
+This project applies statistical analysis, ML and data visualisations to understand how development, land use and energy structure related to CO2 emissions and wehter countries can be clustered into specific related profiles.
+
+Key Questions:
 1- Which countries emit the most CO2 per person?
 2- What is the relationships between GDP, population, forests, agriculture, renewable energy consumption and emissions?
 3- Can countries be clustered into specific related profiles?
@@ -37,6 +39,8 @@ Tools and Components:
 3- HDBSCAN clustering and GLOSH outlier detection (unsupervised learning) using hdbscan library in Python
 4- Random forest and feature importance (supervised learning) using sklearn library in Python
 
+Notes: 
+The variable renewable energy consumption contains significant missing data, therefore the HDBSCAN clustering was performed in one run for only four variable and in the next for all 5 variables.
 
 Author
 
