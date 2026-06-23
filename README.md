@@ -12,23 +12,23 @@ figures/ - generated plots and maps
 
 Current Project titled "Earth Climate Analysis Using Environmental and Economic Indicators"
 
-This project applies statistical analysis, ML and data visualisations to understand how development, land usage and energy structure related to CO2 emissions and wehter countries can be clustered into specific related profiles.
+This project applies statistical analysis, ML and data visualisations to understand how development, land use and energy structure relate to CO₂ emissions and wether countries can be clustered into specific related profiles.
 
-Key Questions:
+Key Questions
 
-1- Which countries emit the most CO2 per person?
+1- Which countries emit the most CO₂ per person?
 
 2- What is the relationships between GDP, population, forests, agriculture, renewable energy consumption and emissions?
 
 3- Can countries be clustered into specific related profiles?
 
-4- Which factors are strongly correlated with emission?
+4- Which factors are strongly correlated with emissions?
 
 The project currently uses the following data from World Bank Open Data:
 
-CO2 contribution per capita: https://data.worldbank.org/indicator/EN.GHG.CO2.PC.CE.AR5   
+CO₂ contribution per capita: https://data.worldbank.org/indicator/EN.GHG.CO2.PC.CE.AR5   
 
-CO2 global contribution: https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5
+CO₂ global contribution: https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5
 
 Forest area: https://data.worldbank.org/indicator/AG.LND.FRST.ZS
 
@@ -42,7 +42,7 @@ Population: https://data.worldbank.org/indicator/SP.POP.TOTL
 
 Project Workflow:
 
-1- Data gathering and clearning
+1- Data gathering and cleaning
 
 2- Statistical and correlation estimations
 
@@ -54,7 +54,7 @@ Tools and Components:
 
 1- Data Processing using pandas, geopandas
 
-2- Statistics, scatter plots, heatmaps and geographic mapping using seaborn, umap and matplotlip
+2- Statistics, scatter plots, heatmaps and geographic mapping using seaborn, umap and matplotlib
 
 3- HDBSCAN clustering and GLOSH outlier detection (unsupervised learning) using hdbscan library in Python
 
@@ -69,9 +69,9 @@ The dataset renewable energy consumption contains significant missing data, ther
 
 * CO₂ per capita, GDP per capita, and population are **highly right-skewed**
 * Large-scale inequalities are present in emission, income and population size.
-* Forest and agriculture variables are uniform and symmetric.
+* Forest and agriculture variables show relatively symmetric distributions.
 
-➡️ **Climate change impact is highly concerntrated in a small cluster of high income and high population countries.**
+➡️ **CO₂ emissions are highly concentrated in a small cluster of high income and high population countries.**
 
 **Correlations**
 
@@ -80,7 +80,7 @@ The dataset renewable energy consumption contains significant missing data, ther
 * Forest ↔ Agriculture: moderate negative (~-0.48)
 * Renewables ↔ CO₂: weak negative (~-0.21)
 
-➡️ **High income countries contribute significantly more to emissions, while the correlation between forest and agriculture is expected. On the other hand, even though renewable energy consumption has lower than expected correlation, one should keep in mind that this dataset suffers from siginifcant lack of coverage for all countries.**
+➡️ **High income countries contribute significantly more to emissions, while the correlation between forest and agriculture is expected. On the other hand, even though renewable energy consumption has lower than expected correlation, one should keep in mind that this dataset has incomplete country coverage.**
 
 **Land Dynamics**
 
@@ -90,16 +90,16 @@ The dataset renewable energy consumption contains significant missing data, ther
 
 ➡️ **Land dynamics are not only driven by income level, but also geography and development.**
 
-**Renewable Energy vs CO2 Emission**
+**Renewable Energy vs CO₂ Emission**
 
-* Most countries cluster at lower values ~ less than 10 tons CO2 per capita.
-* No strong relationship found between the two variables and outlier domination is apparent.
+* Most countries cluster at lower values ~ less than 10 tons CO₂ per capita.
+* No strong relationship is observed between the two variables, and the results are influenced by outliers.
   
 ➡️ **No conclusive statements can be derived as the renewable energy consumption dataset lacks coverage of all countries. Therefore, more data and coverage are required to draw a solid conclusion.**
 
 **Supervised Machine Learning**
 * **R² ≈ 0.65**
-* Model explains moderate share of variance in emissions
+* Indicating that the model explains a moderate proportion of variance in emissions.
 
 Feature importance:
 
@@ -113,7 +113,7 @@ Feature importance:
 
 **Unsupervised Machine Learning**
 
-Two clustering configuartions were compared:
+Two clustering configurations were compared:
 
 1- Without renewable energy consumption
 
@@ -127,7 +127,7 @@ Clearer and better structured clustering with DBCV = 0.330. The clusters span lo
 
 **Main Conclusion**
 
-**Economic development is the dominate and primary driver of CO2 emissions, while land dynamics and renewable energies provide minor patterns. On the other hand, the machine learning algorithms results point to the same conclusion, while also revealing some clear environmental-economic archetypes.**
+**Economic development is the primary driver of CO₂ emissions, while land dynamics and renewable energies provide minor patterns. On the other hand, the machine learning algorithms results point to the same conclusion, while also revealing some clear environmental-economic archetypes.**
 
 ## 📊 Summary Figure
 
