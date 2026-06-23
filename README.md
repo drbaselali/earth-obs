@@ -12,7 +12,7 @@ figures/ - generated plots and maps
 
 Current Project titled "Earth Climate Analysis Using Environmental and Economic Indicators"
 
-This project applies statistical analysis, ML and data visualisations to understand how development, land use and energy structure relate to CO₂ emissions and wether countries can be clustered into specific related profiles.
+This project applies statistical analysis, ML and data visualisations to understand how development, land use and energy structure relate to CO₂ emissions and wether countries can be clustered into specific profiles.
 
 Key Questions
 
